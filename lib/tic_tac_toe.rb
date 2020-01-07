@@ -46,6 +46,12 @@ class TicTacToe
     index = gets.chomp
     index = input_to_index(index.to_i)
     player = current_player
+    if valid_move?(index)
+      move(index, player)
+      display_board
+    else
+      turn
+    end
     
   end
   
