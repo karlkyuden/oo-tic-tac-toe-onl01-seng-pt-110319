@@ -52,8 +52,6 @@ class TicTacToe
     else
       turn
     end
-  
-  end
 
   
   def turn_count()
