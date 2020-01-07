@@ -46,6 +46,16 @@ class TicTacToe
     index = gets.chomp
     index = input_to_index(index.to_i)
     
+  end
+  
+  def turn_count()
+    
+  end
+  
+  def current_player()
+    
+  end
+    
     
     
   end
