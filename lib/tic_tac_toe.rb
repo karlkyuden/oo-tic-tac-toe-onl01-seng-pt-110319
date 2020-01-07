@@ -42,6 +42,8 @@ class TicTacToe
   end
   
   def turn()
+    puts "Please enter between 1-9"
+    index = gets.chomp
     
   end
   
