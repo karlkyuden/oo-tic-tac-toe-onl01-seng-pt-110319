@@ -33,7 +33,9 @@ class TicTacToe
     
   end
   
-  def position_taken
+  def position_taken? (index)
+    
+  end
   
   
   
