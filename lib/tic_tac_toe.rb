@@ -45,6 +45,7 @@ class TicTacToe
     puts "Please enter between 1-9"
     index = gets.chomp
     index = input_to_index(index.to_i)
+    player = current_player
     
   end
   
