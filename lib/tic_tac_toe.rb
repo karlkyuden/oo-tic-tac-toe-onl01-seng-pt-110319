@@ -55,6 +55,8 @@ class TicTacToe
         turnCount++
       end
     end
+    turnCount
+    end
     
   end
   
