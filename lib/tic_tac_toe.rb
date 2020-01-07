@@ -60,7 +60,7 @@ class TicTacToe
     @board.each do |turns|
       if turns =="X" || turns == "O"
         turnCount++
-      end
+      
     end
     turnCount
   
