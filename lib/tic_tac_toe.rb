@@ -41,6 +41,9 @@ class TicTacToe
     position.between?(0,8) && position_taken?(position) == FALSE
   end
   
+  def turn()
+    
+  end
   
   
 end
